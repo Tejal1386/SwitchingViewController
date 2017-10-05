@@ -12,6 +12,9 @@
 		E4EE73801F85A94E007C5213 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4EE737E1F85A94E007C5213 /* Main.storyboard */; };
 		E4EE73821F85A94E007C5213 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4EE73811F85A94E007C5213 /* Assets.xcassets */; };
 		E4EE73851F85A94E007C5213 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4EE73831F85A94E007C5213 /* LaunchScreen.storyboard */; };
+		E4EE738D1F85A98E007C5213 /* SwitchingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EE738C1F85A98E007C5213 /* SwitchingViewController.swift */; };
+		E4EE73911F85AC7E007C5213 /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EE73901F85AC7E007C5213 /* BlueViewController.swift */; };
+		E4EE73931F85B16A007C5213 /* YelloViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EE73921F85B16A007C5213 /* YelloViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		E4EE73811F85A94E007C5213 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4EE73841F85A94E007C5213 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E4EE73861F85A94E007C5213 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4EE738C1F85A98E007C5213 /* SwitchingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwitchingViewController.swift; path = ../SwitchingViewController.swift; sourceTree = "<group>"; };
+		E4EE73901F85AC7E007C5213 /* BlueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
+		E4EE73921F85B16A007C5213 /* YelloViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YelloViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +60,15 @@
 		E4EE73791F85A94E007C5213 /* MultiViewApp */ = {
 			isa = PBXGroup;
 			children = (
+				E4EE738C1F85A98E007C5213 /* SwitchingViewController.swift */,
 				E4EE737A1F85A94E007C5213 /* AppDelegate.swift */,
 				E4EE737C1F85A94E007C5213 /* ViewController.swift */,
 				E4EE737E1F85A94E007C5213 /* Main.storyboard */,
 				E4EE73811F85A94E007C5213 /* Assets.xcassets */,
 				E4EE73831F85A94E007C5213 /* LaunchScreen.storyboard */,
 				E4EE73861F85A94E007C5213 /* Info.plist */,
+				E4EE73901F85AC7E007C5213 /* BlueViewController.swift */,
+				E4EE73921F85B16A007C5213 /* YelloViewController.swift */,
 			);
 			path = MultiViewApp;
 			sourceTree = "<group>";
@@ -139,6 +148,9 @@
 			files = (
 				E4EE737D1F85A94E007C5213 /* ViewController.swift in Sources */,
 				E4EE737B1F85A94E007C5213 /* AppDelegate.swift in Sources */,
+				E4EE73911F85AC7E007C5213 /* BlueViewController.swift in Sources */,
+				E4EE738D1F85A98E007C5213 /* SwitchingViewController.swift in Sources */,
+				E4EE73931F85B16A007C5213 /* YelloViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
